@@ -3,5 +3,9 @@ python:
   - "3.6"
 jobs:
   include:
-    - stage: unit tests
-      script: "Running unit tests (1)"
+    - stage: build
+      script: echo "haha oops forgot to do this"
+    - stage: test
+      script: echo "I know what to do"
+    - stage: deploy
+      script: echo "deploy this"
