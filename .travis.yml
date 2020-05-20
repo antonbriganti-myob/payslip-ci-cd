@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.6"
+jobs:
+  include:
+    - stage: unit tests
+      script: "Running unit tests (1)"

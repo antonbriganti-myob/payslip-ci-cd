@@ -1,4 +1,6 @@
 # Payslip Calculator
+[![Build Status](https://travis-ci.org/antonbriganti-myob/payslip-ci-cd.svg?branch=master)](https://travis-ci.org/antonbriganti-myob/payslip-ci-cd)
+
 At MYOB we rock at payroll, the most important part of payroll is getting your payslip!
 
 ## The Problem
