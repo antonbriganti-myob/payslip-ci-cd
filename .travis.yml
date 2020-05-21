@@ -4,8 +4,8 @@ python:
 jobs:
   include:
     - stage: build
-      script: echo "haha oops forgot to do this"
+      script: ./deploy/bin/build
     - stage: test
-      script: echo "I know what to do"
+      script: ./deploy/bin/test
     - stage: deploy
-      script: echo "deploy this"
+      script: ./deploy/bin/deploy
