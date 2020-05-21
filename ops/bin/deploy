@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "Let's pretend we're deploying."
+
+echo "Deploying..."
+
+count=0
+while [ $count -lt 5 ] 
+do
+    echo -n "#"
+    sleep 1
+    count=$[$count+1]
+done
+
+echo "Deployed!"
