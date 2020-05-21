@@ -7,7 +7,7 @@ echo
 echo "There are different kinds/levels of test (e.g. unit, integration, etc.). Each of these levels should be there own step in the pipeline." 
 echo "This is for a couple different reasons. Like we talked about in build, if things are going to fail, you want them to fail fast."
 echo "Unit tests are cheap/quick, you can run a lot pretty quickly. But integration tests can take longer. You don't want to wait for all the integration tests to run to find out a unit test failed."
-echo "Another reason we want to split the steps up is so we can immediately know what tests have failed so we can start to troubleshoot the problems quicker"
+echo "Another reason we want to split the steps up is so we can immediately know what part of our application isnt working as it should so we can start to troubleshoot the problems quicker"
 echo "We won't have to read through all the different logs to find out what kind of test broke, we can just check the pipeline steps"
 echo "Again, CI/CD pipelines work best when built to provide feedback in the shortest amount of time possible."
 echo

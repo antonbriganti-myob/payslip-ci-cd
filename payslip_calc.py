@@ -21,7 +21,7 @@ class PayslipCalculator:
 
         for bracket in tax_brackets:
             if annual_salary <= bracket[1]:
-                return round((bracket[3] + (annual_salary - bracket[0]) * bracket[2]) / 12)
+                return round((bracket[3] + (annual_salary - bracket[0]) * bracket[3]) / 12)
 
     def calculate_gross_income(self, annual_salary):
         return round(annual_salary / 12)
