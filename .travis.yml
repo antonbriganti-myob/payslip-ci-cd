@@ -6,6 +6,6 @@ jobs:
     - stage: build
       script: ./ops/bin/build
     - stage: test
-      script: ./ops/bin/test
+      script: ./ops/bin/tester
     - stage: deploy
       script: ./ops/bin/deploy
