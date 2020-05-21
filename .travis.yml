@@ -4,8 +4,8 @@ python:
 jobs:
   include:
     - stage: build
-      script: ./deploy/bin/build
+      script: ./ops/bin/build
     - stage: test
-      script: ./deploy/bin/test
+      script: ./ops/bin/test
     - stage: deploy
-      script: ./deploy/bin/deploy
+      script: ./ops/bin/deploy
