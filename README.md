@@ -3,6 +3,14 @@
 
 At MYOB we rock at payroll, the most important part of payroll is getting your payslip!
 
+## Contact Us
+we can't get you jobs but we can answer questions you have
+`anton.briganti@myob.com`
+`bianca.carnevale@myob.com`
+
+## Feedback Appreciated
+https://forms.office.com/Pages/ResponsePage.aspx?id=__VH7LjHSEiGWRHCxCTRIEYw3kqR8YdOnczwtGBbCw1UMVAyVE84OVJTMDBXTVE2VUEzV0lYRVRQVC4u
+
 ## The Problem
 ### Payslip definition and rules
 * Gross income = annual salary / 12 months   
@@ -38,3 +46,4 @@ Income Tax: 922
 Net income: 4082
 Super Earned: 450
 ```
+
