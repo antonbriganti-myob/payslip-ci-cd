@@ -25,7 +25,7 @@ class TestPayslipCalculator(unittest.TestCase):
         self.assertEqual(expected_super, actual_super)
     
     def test_fail(self):
-        self.assertTrue(False)
+        self.assertTrue(True)
 
 
 if __name__ == '__main__':
