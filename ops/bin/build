@@ -1,3 +1,10 @@
 #!/usr/bin/env bash
 
-echo "haha oops forgot to do this"
+echo "Building can be an important step if you're running a pipeline on something that uses the same 'agent'"
+echo "It would build the artefact and then pass it down to the next stage."
+echo "This way you can fail fast. If your code doesn't compile, you'll find out immediately as opposed to when you try to deploy"
+echo "Failing fast is an important aspect of a pipeline. The shorter the feedback loop, the quicker you can work"
+
+
+echo
+echo "We're not actually going to build today, but I thought it would be an important step to point out."

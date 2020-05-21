@@ -1,3 +1,20 @@
 #!/usr/bin/env bash
 
+echo "Testing is a core part of any CI/CD pipeline. It provides a quick and easy way to see if any changes you've made break anything"
+echo "(That's of course assuming that you do have tests, which should be default but isn't always going to be the case for some people)"
+echo "By having the pipeline run your tests, you also can avoid the dreaded 'works/passes on my machine'. It provides a clean slate to run your tests on."
+echo 
+echo "There are different kinds/levels of test (e.g. unit, integration, etc.). Each of these levels should be there own step in the pipeline." 
+echo "This is for a couple different reasons. Like we talked about in build, if things are going to fail, you want them to fail fast."
+echo "Unit tests are cheap/quick, you can run a lot pretty quickly. But integration tests can take longer. You don't want to wait for all the integration tests to run to find out a unit test failed."
+echo "Another reason we want to split the steps up is so we can immediately know what tests have failed so we can start to troubleshoot the problems quicker"
+echo "We won't have to read through all the different logs to find out what kind of test broke, we can just check the pipeline steps"
+echo "Again, CI/CD pipelines work best when built to provide feedback in the shortest amount of time possible."
+echo
+echo "(As a brief aside, if you want a little more insight into the different levels of testing, you should look up the Testing Pyramid concept)"
+echo
+echo "Now let's run some tests!"
+echo
+echo
+echo
 python3 -m unittest discover -s tests

@@ -1,6 +1,17 @@
 #!/usr/bin/env bash
 
-echo "Let's pretend we're deploying."
+echo "Deploying is the last thing you do on your pipeline. Now that you know everything is good because your code has built and your tests have passed"
+echo "Compared to building and testing, deploying can vary pretty differently depending on what service or lanaguage you're using, but the core concepts remain the same"
+echo "Your code is bundled into an executable format, and then uploaded onto the service you're using."
+echo "We want the pipeline to take care of this so that we don't have to worry about relying on one person to deploy, and to make sure the same configuration set up is used every time."
+echo
+echo "If we have different environments we deploy to (like SIT and PROD), we would want these to be different steps, just like our tests."
+echo "It's also good to have rules around when you deploy to SIT and PROD, and these can be reflected in the pipeline."
+echo "For example, you automatically deploy to SIT but you need to manually approve a deploy to PROD. You can set a blocker of some kind in your pipeline to make sure you don't auto deploy to PROD"
+echo "TravisCI doesn't have a manual confirmation step, so each push we make would deploy. This isn't always ideal, but there are some ways around it like setting a 'release' branch that is the only one you can deploy on"
+echo
+echo "For the sake of ease today, we're not going to actually deploy anything, but there are services like Heroku which you could deploy your apps to. Feel free to check them out!"
+echo "Frow, let's just pretend we're deploying."
 
 echo "Deploying..."
 
@@ -12,4 +23,5 @@ do
     count=$[$count+1]
 done
 
+echo
 echo "Deployed!"
